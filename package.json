@@ -16,6 +16,14 @@
   ],
   "author": "David M. Lee, II",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/building5/name-all-the-things.git"
+  },
+  "homepage": "https://github.com/building5/name-all-the-things",
+  "bugs": {
+    "url": "https://github.com/building5/name-all-the-things/issues"
+  },
   "devDependencies": {
     "code": "^1.2.1",
     "mocha": "^2.0.1",
