@@ -1,0 +1,28 @@
+{
+  "name": "node-name-all-the-things",
+  "version": "0.0.0",
+  "description": "Node require hook to put names on anonymous functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "natt": "./bin/natt.js"
+  },
+  "keywords": [
+    "require",
+    "hook",
+    "anonymous"
+  ],
+  "author": "David M. Lee, II",
+  "license": "MIT",
+  "devDependencies": {
+    "code": "^1.2.1",
+    "mocha": "^2.0.1",
+    "webkit-devtools-agent": "*",
+    "open": "*"
+  },
+  "dependencies": {
+    "falafel": "^0.3.1"
+  }
+}
