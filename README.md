@@ -1,11 +1,11 @@
 # Name All The Things
 
-With Node.js, there are several situations in which using anonymous functions
-is less than helpful for debugging purposes.
+With Node.js, there are several situations in which using anonymous functions is
+less than helpful for debugging purposes.
 
-Name All The Things (`natt`) is a Node.js require hook which scans any loaded modules,
-and inserts a name for any functions that it find. The function names are meant
-to be somewhat reasonable.
+Name All The Things (`name-all-the-things`) is a Node.js require hook which
+scans any loaded modules, and inserts a name for any functions that it find. The
+function names are meant to be somewhat reasonable.
 
 ```JavaScript
 // Putting a name on unnamed functions that initialize vars is easy
@@ -26,20 +26,21 @@ doSomething(someParams, function () {})
 
 ## Usage
 
-To use `natt` on any Node.js app, install globally and run the `natt` command.
+To use `name-all-the-things` on any Node.js app, install globally and run the
+`name-all-the-things` command.
 
 ```bash
-$ npm i -g natt
+$ npm i -g name-all-the-things
 $ natt app.js
 ```
 
-To embed `natt` in your application, add a call to the `register()`. Note that
-this won't be able to instrument anything in this file itself; just in the
-modules that are loaded later.
+To embed `name-all-the-things` in your application, add a call to the
+`register()`. Note that this won't be able to instrument anything in this file
+itself; just in the modules that are loaded later.
 
 ```JavaScript
 require('not-named');
-require('natt').register();
+require('name-all-the-things').register();
 require('gets-named');
 
 var alsoNotNamed = function () {}
