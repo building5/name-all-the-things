@@ -45,3 +45,10 @@ require('gets-named');
 
 var alsoNotNamed = function () {}
 ```
+
+## Compatibility
+
+This module probably doesn't work with most transpilers, since they are trying
+similar but different hackery to get into the require process. But this isn't
+very useful with them anyways, since line numbers will be from the generated
+JavaScript, so they probably won't line up with the original source.
