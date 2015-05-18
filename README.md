@@ -45,16 +45,3 @@ require('gets-named');
 
 var alsoNotNamed = function () {}
 ```
-
-## Interop
-
-As of v0.2.1, `name-all-the-things` can work with transpilers like
-[babel](http://babeljs.io/). But there are some challenges with that. First, be
-sure to register `name-all-the-things` after the other transpiler(s), so that it
-can hook into the compiler properly.
-
-Secondly, it is less useful if the transpiler generates its own names on what
-would otherwise be anonymous methods. Then the only things left to name are
-anonymous callbacks. These are named based on filename/line number, and the line
-number injected by `name-all-the-things` will be in the resulting ES5
-JavaScript, so the line numbers will be incorrect.
