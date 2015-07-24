@@ -1,5 +1,10 @@
 # name all the things
 
+## v1.0.0 (2015-07-24)
+
+ * Update to falafel v1.2.0, to fix problems shrinkwrapping with latest npm v2
+ * Updated to code 1.4.1 and mocha 2.2.5 because reasons
+
 ## v0.2.1 (2015-05-18)
 
  * Disable the processing of modules, which might do [evil things][] like call
