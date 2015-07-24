@@ -1,6 +1,6 @@
 {
   "name": "name-all-the-things",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node require hook to put names on anonymous functions",
   "main": "index.js",
   "scripts": {
