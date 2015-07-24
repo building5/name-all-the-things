@@ -1,5 +1,10 @@
 # name all the things
 
+## v1.0.1 (2015-07-24)
+
+ * Move code and mocha back to dev dependencies, because
+   `--save` !== `--save-dev`.
+
 ## v1.0.0 (2015-07-24)
 
  * Update to falafel v1.2.0, to fix problems shrinkwrapping with latest npm v2

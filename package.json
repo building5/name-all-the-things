@@ -25,14 +25,12 @@
     "url": "https://github.com/building5/name-all-the-things/issues"
   },
   "devDependencies": {
-    "code": "^1.2.1",
-    "mocha": "^2.0.1",
+    "code": "^1.4.1",
+    "mocha": "^2.2.5",
     "open": "*",
     "webkit-devtools-agent": "*"
   },
   "dependencies": {
-    "code": "^1.4.1",
-    "falafel": "^1.2.0",
-    "mocha": "^2.2.5"
+    "falafel": "^1.2.0"
   }
 }
